@@ -77,7 +77,6 @@ nav ul {
   height: 64px;
   flex-direction: row;
   margin-right: 24px;
-
 }
 
 .navbar {
@@ -97,4 +96,53 @@ nav ul {
 
 .navbar li:hover:nth-child(1n+2) {
   border-left: 16px rgba(0, 223, 255, 0.3) solid;
+}
+
+.banner {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background-color: silver;
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-img {
+  display: flex;
+  width: 60%;
+  max-width: 60%;
+  height: auto;
+  margin: 32px 24px;
+}
+
+.banner-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  max-width: 30%;
+}
+
+.banner-description h2 {
+  color: dimgray;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.banner-description p {
+  color: dimgray;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.start-button h3 {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 4px;
+  color: white;
+  background-color: dimgray;
+  font-size: 25px;
 }
