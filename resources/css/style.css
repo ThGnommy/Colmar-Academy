@@ -60,6 +60,11 @@ header h1 {
   font-weight: 700;
 }
 
+p {
+  font-size: 20px;
+  color: #404040;
+}
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -209,14 +214,15 @@ p.b2 {
   margin-bottom: 32px;
 }
 
+a.read-more {
+  color: mediumblue;
+  margin: 8px 0;
+}
+
 h4 {
   color: #404040;
   font-weight: bold;
   font-size: 40px;
-}
-
-.p-info {
-  font-size: 25px;
 }
 
 .emanuel {
@@ -264,13 +270,82 @@ p.courses {
   padding: 8px 0;
 }
 
-h4.courses {
-}
-
 .courses-texts {
   display: flex;
   padding: 16px;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.thesis-container {
+  display: flex;
+  flex-direction: row;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.video-section {
+  width: 60%;
+  margin: 0 24px 32px 24px;
+}
+
+p.video-info {
+  display: flex;
+  color: #404040;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 8px;
+}
+
+.thesis-fisma {
+  display: flex;
+  background-color: silver;
+  flex-direction: row;
+}
+
+.thesis-tower {
+  display: flex;
+  flex-direction: row;
+}
+
+img.thesis {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.fisma-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tower-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px silver solid;
+}
+
+p.copyright {
+  display: flex;
+  flex-grow: 1;
+  margin: 16px 24px;
+
+}
+
+a {
+  color: inherit;
+  margin: 16px 24px;
+  text-decoration: none;
 }
