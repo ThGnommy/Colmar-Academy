@@ -103,6 +103,30 @@ nav ul {
   border-left: 16px rgba(0, 223, 255, 0.3) solid;
 }
 
+@media only screen and (min-width: 600px) {
+
+  .logo img.nav-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .logo {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .logo h1 {
+    display: none;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
+
 .banner {
   display: flex;
   position: relative;
