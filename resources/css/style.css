@@ -103,10 +103,14 @@ nav ul {
   border-left: 16px rgba(0, 223, 255, 0.3) solid;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
 
   .logo img.nav-mobile {
     display: none;
+  }
+
+  .logo-desktop {
+    display: block;
   }
 }
 
@@ -116,6 +120,7 @@ nav ul {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    margin: 0;
   }
 
   .logo h1 {
@@ -123,6 +128,10 @@ nav ul {
   }
 
   nav ul {
+    display: none;
+  }
+
+  .logo-desktop {
     display: none;
   }
 }
