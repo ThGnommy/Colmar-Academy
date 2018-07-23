@@ -242,13 +242,13 @@ nav ul {
 .info-img-mobile {
   min-width: 35%;
   height: auto;
-  margin: 16px;
 }
 
-.info-1, .info-2, .info-3 {
+.info-1, .info-2, .info-3, .info-container {
   display: flex;
   flex-direction: row;
   border: 1px silver solid;
+  width: 100%;
 }
 
 .info-3 {
@@ -432,6 +432,52 @@ p.courses {
   .job h4 {
     padding: 16px 0 24px 16px;
   }
+}
+
+@media only screen and (max-width: 850px) {
+
+  .info-1, .info-2, .info-3, .info-container {
+    flex-direction: column;
+    border: none;
+    align-items: center;
+  }
+
+  .info-txt-1 {
+    text-align: initial;
+  }
+
+  .right.info {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .left-info {
+    display: none;
+  }
+
+  .info-1, .info-2, .info-3, .info-container {
+    align-items: baseline;
+  }
+
+.info-img-mobile {
+  width: 100%;
+  height: auto;
+}
+
+.video-section h4 {
+  display: none;
+}
+
+.video-section p {
+  display: none;
+}
+
+.thesis-info {
+  display: none;
+}
+
 }
 
 .thesis-container {
