@@ -234,7 +234,13 @@ nav ul {
 }
 
 .info-img {
-  width: 35%;
+  min-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.info-img-mobile {
+  min-width: 35%;
   height: auto;
   margin: 16px;
 }
@@ -285,6 +291,48 @@ h4 {
   margin-top: 61px;
   margin-bottom: 32px;
   opacity: 0.8;
+}
+
+@media only screen and (min-width: 1465px) {
+
+  .info-img-mobile {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1464px) {
+
+.banner-2 {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-img-2 {
+  width: 100%;
+  height: auto;
+  }
+
+.left-info {
+  width: 100%;
+}
+
+.emanuel {
+  margin-left: 24px;
+}
+
+  .right-info {
+    width: 100%;
+  }
+
+  .info-img {
+    display: none;
+  }
+
+  .info-3 {
+    background-color: #FFF;
+  }
 }
 
 
@@ -339,7 +387,50 @@ p.courses {
 
 @media only screen and (max-width: 1556px) {
   .job {
+    width: 27%;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .job {
     width: 26%;
+  }
+
+  .job h4 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 952px) {
+
+  .start-learning {
+    background-color: #FFF;
+  }
+
+  .jobs-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #FFF;
+    margin: 0;
+  }
+
+  .job-img {
+    display: none;
+  }
+
+  p.courses {
+    display: none;
+  }
+
+  .job {
+    background-color: silver;
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  .job h4 {
+    padding: 16px 0 24px 16px;
   }
 }
 
@@ -395,6 +486,24 @@ img.thesis {
   justify-content: center;
   flex-direction: column;
 }
+
+@media only screen and (max-width: 1200px) {
+
+  .thesis-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .thesis-info {
+    width: 100%;
+  }
+}
+
 
 footer {
   display: flex;
