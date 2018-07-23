@@ -324,14 +324,20 @@ h4 {
 
   .right-info {
     width: 100%;
+    box-sizing: border-box;
   }
 
   .info-img {
     display: none;
   }
 
+  .info-1, info-2 {
+    box-sizing: border-box;
+  }
+  
   .info-3 {
     background-color: #FFF;
+    box-sizing: border-box;
   }
 }
 
