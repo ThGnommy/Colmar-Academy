@@ -405,6 +405,11 @@ p.courses {
 
   .start-learning {
     background-color: #FFF;
+    border-top: 1px solid silver;
+  }
+
+  .start-learning h2 {
+    padding-bottom: 0;
   }
 
   .jobs-container {
@@ -413,6 +418,7 @@ p.courses {
     justify-content: center;
     background-color: #FFF;
     margin: 0;
+    margin: 16px;
   }
 
   .job-img {
@@ -431,6 +437,10 @@ p.courses {
 
   .job h4 {
     padding: 16px 0 24px 16px;
+  }
+
+  .thesis-section h2 {
+    border-top: 1px silver solid;
   }
 }
 
