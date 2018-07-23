@@ -457,7 +457,9 @@ p.courses {
     display: none;
   }
 
-  .info-1, .info-2, .info-3, .info-container {
+  .info-1, .info-2, .info-3 {
+    width: auto;
+    margin: 16px;
     align-items: baseline;
   }
 
@@ -477,6 +479,14 @@ p.courses {
 .thesis-info {
   display: none;
 }
+
+.copyright {
+  font-size: 16px;
+}
+
+  footer a {
+    display: none;
+  }
 
 }
 
@@ -550,6 +560,15 @@ img.thesis {
   }
 }
 
+@media only screen and (max-width: 350px) {
+  .start-button {
+    width: 90%;
+  }
+
+  .banner-description {
+    align-items: center;
+  }
+}
 
 footer {
   display: flex;
